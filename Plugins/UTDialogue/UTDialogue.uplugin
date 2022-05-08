@@ -1,0 +1,41 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "[Unreal Toolbox] Dialogue",
+	"Description": "A system used to manage interact widgets, dialogues and voice files",
+	"Category": "Unreal Toolbox",
+	"CreatedBy": "Henry Jooste",
+	"CreatedByURL": "",
+	"DocsURL": "https://github.com/hfjooste/UT-Dialogue",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UTDialogue",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformDenyList": [
+				"IOS",
+				"Android",
+				"TVOS",
+				"Mac",
+				"Linux"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "UTLogger",
+			"Enabled": true
+		},
+		{
+			"Name": "UTInputIndicator",
+			"Enabled": true
+		}
+	]
+}
